@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loopes in Python</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Loops in Python</h1>
+    <h3>In Python, **loops** allow you to repeatedly execute a block of code as long as a certain condition is true. There are two main types of loops in Python: **`for` loops** and **`while` loops**. 
+</h3>
+<div class="div">
+<h2>for` loop:</h2>
+
+<h4>The `for` loop is used to iterate over a sequence (like a list, tuple, string, or range) and execute a block of code for each item in that sequence.
+</h4>
+<li>Syntax:</li>
+<p>
+for item in sequence: <br>
+    # Code block to execute for each item in the sequence 
+</p>
+
+<p>
+fruits = ["apple", "banana", "cherry"] <br>
+for fruit in fruits: <br>
+    print(fruit) <br> <br>
+Output:
+apple <br>
+banana <br>
+cherry <br>
+</p>
+
+<h2>`while` loop:</h2>
+
+<h4>The `while` loop repeats as long as a given condition is true. It is generally used when you do not know the number of iterations in advance.
+</h4>
+<li>Syntax:</li>
+<p>
+while condition: <br>
+    # Code block to execute as long as the condition is true
+</p>
+<p>
+x = 0 <br>
+while x < 5: <br>
+    print(x) <br>
+    x += 1  # Increment x by 1 <br> <br>
+Output: <br>
+0
+1
+2
+3
+4
+</p>
+
+
+<h2>Controlling Loops with `break`, `continue`, and `else`:
+</h2>
+<li><b>`break`:</b> Exits the loop entirely, even if the loop condition hasn't been met.</li>
+<li><b>`continue`:</b> Skips the current iteration and moves to the next iteration of the loop.</li>
+<li><b>`else`:</b> Can be used with both `for` and `while` loops. The code inside the `else` block will run when the loop is not terminated by a `break` statement (i.e., when the loop runs to completion).</li>
+
+<p>
+for i in range(10): <br>
+    if i == 5: <br>
+        break  # Exits the loop when i equals 5 <br>
+    print(i) <br> <br>
+
+Output: <br>
+0
+1
+2
+3
+4
+</p>
+
+<p>
+for i in range(10): <br>
+    if i == 5: <br>
+        continue  # Skips the iteration when i equals 5 <br>
+    print(i) <br> <br>
+Output: <br>
+0
+1
+2
+3
+4
+6
+7
+8
+9
+</p>
+<p>
+for i in range(5): <br>
+    print(i) <br>
+else: <br>
+    print("Loop finished successfully") <br> <br>
+Output: <br>
+0
+1
+2
+3
+4 <br>
+Loop finished successfully
+</p>
+
+<p>
+x = 0 <br>
+while x < 5: <br>
+    print(x) <br>
+    x += 1 <br>
+else: <br>
+    print("While loop completed") <br> <br>
+Output: <br>
+
+0
+1
+2
+3
+4 <br>
+While loop completed
+</p>
+</div>
+</body>
+</html>

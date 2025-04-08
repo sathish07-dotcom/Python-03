@@ -1,0 +1,29 @@
+body{
+background-color: pink;
+}
+h1{
+text-align: center;
+color: red;
+text-decoration: underline green;
+}
+h3{
+color: blue;
+text-align: center;
+}
+h4{
+ color: blue;
+}
+h2{
+color: rgb(8, 139, 139);
+}
+li{
+color: brown;
+}
+.div{
+border: 2px green solid;
+height: 180vh;
+padding: 20px;
+}
+p{
+color: green;
+}
